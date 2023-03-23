@@ -11,9 +11,11 @@ pnpm install
 # Start development server
 pnpm dev
 
-# Build for production
-pnpm build
+# Deploy to GitHub Pages
+pnpm deploy
 ```
+
+Note: for the deploy to work, you need to change the `base` in `vite.config.js` to your GitHub repository name.
 
 ## Adding slides
 
@@ -33,7 +35,7 @@ export default function MySlide() {
 }
 ```
 
-import it in `index.jsx` and add it to the `Slides` like this:
+Import it in `index.jsx` and add it into the `Slides` like this:
 
 ```jsx
 // src/Slides/index.jsx
