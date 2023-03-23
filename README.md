@@ -38,11 +38,13 @@ import it in `index.jsx` and add it to the `Slides` like this:
 ```jsx
 // src/Slides/index.jsx
 import React from 'react';
+import OtherSlide from './OtherSlide';
 import MySlide from './MySlide';
 
 export default function Slides() {
   return (
     <>
+      <OtherSlide />
       <MySlide />
     </>
   );
