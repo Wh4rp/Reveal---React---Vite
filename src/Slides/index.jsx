@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './title';
+import Title from './Title';
 
 export default function Slides() {
   return (

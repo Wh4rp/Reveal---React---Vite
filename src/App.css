@@ -26,11 +26,6 @@ img {
   letter-spacing: 0.5em;
 }
 
-.about-gillian p {
-  margin: 0;
-  line-height: 0.95;
-}
-
 em {
   color: #42affa;
 }
@@ -41,14 +36,6 @@ em {
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.student-lab p {
-  margin: 0;
-}
-
-.student-lab img {
-  height: 400px;
 }
 
 .grid {
@@ -65,22 +52,6 @@ em {
 
 .grid>img {
   grid-column: 2;
-}
-
-.hljs-decl {
-  color: #c678dd;
-}
-
-.hljs-keyword {
-  color: #8deafd;
-}
-
-.hljs-literal {
-  color: #fffbb2;
-}
-
-.hljs-operator {
-  color: #56b6c2;
 }
 
 .inactive {

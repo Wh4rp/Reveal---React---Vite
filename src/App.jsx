@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Deck from './components/RevealComponents/Deck';
+import Deck from './Components/RevealComponents/Deck';
 import Slides from './Slides';
 
 import 'reveal.js/dist/reveal.css';
