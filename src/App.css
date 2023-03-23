@@ -15,17 +15,6 @@ img {
   -o-user-drag: none;
 }
 
-.title img {
-  margin: 0;
-  width: 40vw;
-}
-
-.title p {
-  margin: -20px 0 0 0;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-}
-
 em {
   color: #42affa;
 }
